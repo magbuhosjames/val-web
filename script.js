@@ -63,7 +63,7 @@ function drawTextWithLineBreaks(lines, x, y, fontSize, lineHeight) {
 }
 
 function drawText() {
-    var fontSize = Math.min(20, window.innerWidth / 24); // Adjust font size based on screen width
+    var fontSize = Math.min(14, window.innerWidth / 24); // Adjust font size based on screen width
     var lineHeight = 8;
 
     context.font = fontSize + "px Poppins, sans-serif";
