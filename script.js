@@ -52,7 +52,7 @@ const button = document.getElementById("valentinesButton");
 
 button.addEventListener("click", () => {
     // Direct to the specified URL
-    window.location.href = "http://www.frencyff.netlify.app";
+    window.location.href = "https://frencyff.netlify.app";
 });
 
 
@@ -66,7 +66,7 @@ function drawText() {
     var fontSize = Math.min(25, window.innerWidth / 24); // Adjust font size based on screen width
     var lineHeight = 8;
 
-    context.font = fontSize + "px Poppins";
+    context.font = fontSize + "px Poppins, sans-serif";
     context.textAlign = "center";
     
     // glow effect
